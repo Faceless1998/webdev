@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="citizen">მოქალაქეობა</label><br>
+        <input type="checkbox" name="citizen" value="spartan"> This is sparta<br>
+        <input type="checkbox" name="citizen" value="batumel"> This is batumi<br>
+        <input type="checkbox" name="citizen" value="batumel"> This is georgia<br>
+
+        <label for="game">თამაში</label><br>
+        <input type="radio" name="game">LOL<br>
+        <input type="radio" name="game">Dota<br>
+        <input type="radio" name="game">MLBB<br>
+        <input type="radio" name="game">Arena of Valor<br>
+
+        <label for="tarigi">დაბადების დღე</label><br>
+        <input type="date" name="bday" min="1984-12-31"><br>
+        <input type="date" name="bday" max="2004-12-31"><br>
+        <input type="date" name="bday" min="1984-12-31" max="2004-12-31"><br>
+
+        <label for="next">შემდეგი</label><br>
+        <input type="image" src="assets/img/icon.png" width="20"><br>
+
+        <label for="files">ატვირთეთ დავალება</label><br>
+        <input type="file" multiple><br>
+        <fieldset>
+            <legend>ღილაკი</legend>
+            <label>ღილაკი</label>
+            <input type="button" value="press me">
+            <input type="submit" value="დამაწექი">
+
+            <button type="submit"></button>
+
+            <select name="car">
+                <optgroup label="best">
+
+                    <option value="ford">Ford</option>
+                <optgroup label="best of the best">
+                    <option value="mercedes-benz">chevrolet impala 1967</option>
+                </optgroup>
+                </optgroup>
+                <option value="hyndai">Hyndai</option>
+                <option value="opel">opel</option>
+            </select>
+            <textarea rows="2" cols="2">
+
+        </textarea>
+
+        </fieldset>
+        <input type="number" step="7">
+        <label>სახელი</label>
+        <input type="text" placeholder="მაგ. John">
+        <!--
+            required
+            readonly
+            disabled
+        -->
+    </form>
+</body>
+
+</html>
